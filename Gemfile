@@ -7,6 +7,7 @@ gem 'rails'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  #gem 'guard-rspec', '4.6.0'
 end
 
 group :test do
@@ -34,3 +35,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem 'test-unit'
+
+gem 'rspec-expectations'
+gem 'rspec-core'
+gem 'rspec-mocks'
