@@ -11,6 +11,17 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-   def contact
+  def contact
   end
+
+  def signup
+  end
+
+
+def pomosh
+
+render :help
+
+end
+
 end
