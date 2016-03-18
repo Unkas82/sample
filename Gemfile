@@ -4,6 +4,8 @@ ruby '2.2.4'
 
 gem 'rails'
 gem 'bootstrap-sass', '2.3.2.0'
+#gem 'bcrypt-ruby', '3.1.2'
+gem 'bcrypt'
 
 
 group :development, :test do
@@ -41,3 +43,5 @@ gem 'test-unit'
 gem 'rspec-expectations'
 gem 'rspec-core'
 gem 'rspec-mocks'
+
+gem 'rake', '< 11.0'

@@ -1,12 +1,11 @@
 require 'spec_helper'
 
-describe UserController do
+describe User do
 
-  describe "GET 'new'" do
-    it "returns http success" do
-      get 'new'
-      response.should be_success
-    end
-  end
+  before { @user = User.new(name: "Example User", email: "user@example.com") }
 
+  subject { @user }
+
+  it { should respond_to(:name) }
+  it { should respond_to(:email) }
 end
